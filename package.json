@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "author": "Nikita Marcius",
+  "description": "Koa + Graphql + MongoDB",
+  "scripts": {
+    "dev": "nodemon ./src/main.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^0.9.1",
+    "graphql-server-koa": "^0.6.0",
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-router": "^7.0.1",
+    "mongoose": "^4.9.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-3": "^6.22.0",
+    "babel-register": "^6.24.0"
+  }
+}
