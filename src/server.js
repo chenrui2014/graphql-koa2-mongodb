@@ -21,5 +21,5 @@ app.use(router.routes());
 app.use(router.allowedMethods());
 app.listen(PORT, () => {
     console.log('Sever is running on', 'localhost:' + PORT);
-    console.log('GraphiQL dashboard', 'localhost' + PORT + '/graphiql')
+    console.log('GraphiQL dashboard', 'localhost:' + PORT + '/graphiql')
 });
