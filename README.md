@@ -1,4 +1,4 @@
-# koa2-graphql-mongodb ![](https://img.shields.io/badge/npm-7.7.4-blue.svg)
+# koa2-graphql-mongodb ![](https://img.shields.io/badge/node-7.7.4-blue.svg)
 A simple GraphQL server with Koa2 and MongoDB
 
 ## Installation
