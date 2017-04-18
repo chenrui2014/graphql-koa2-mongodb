@@ -10,6 +10,29 @@ $ npm i
 $ npm run dev
 ```
 
+## Initialization example
+
+### Mutation
+```
+mutation firstMutation{
+  UserCreate(data: {firstName: "John", lastName: "Dohe"})
+}
+```
+```
+mutation secondMutation{
+  UserCreate(data: {firstName: "Jane", lastName: "Dohe"})
+}
+```
+### Queries
+```
+{
+  Users{
+    firstName
+    lastName
+  }
+}
+```
+
 ## Tutorials 
 - <img src="https://cdn-static-1.medium.com/_/fp/icons/favicon-medium.TAS6uQ-Y7kcKgi0xjcYHXw.ico" alt="icon" width="15" height="15"/>  [Engish](https://medium.com/marcius-corp/tutorial-graphql-server-with-koa2-and-mongodb-27405e71713e)
 - <img src="https://cdn-static-1.medium.com/_/fp/icons/favicon-medium.TAS6uQ-Y7kcKgi0xjcYHXw.ico" alt="icon" width="15" height="15"/>  [Русский](https://medium.com/marcius-corp/tutorial-graphql-server-with-koa2-and-mongodb-ru-d2765fddfcae)
